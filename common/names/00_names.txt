@@ -1325,7 +1325,7 @@ NCY = {
 }
 
 #Norway
-NOR = {
+NRY = {
 	male = {
 		names = {
 			Jan Jan-Roar Jens Sverre Odd Johan Fredrik Ole Hans Harald Håkon Olav Petter Carl Kristian Kåre Jacob Daniel Muhammed Eirik Andreas Arild Knut Per Tor Svein Espen Bjørnar Kristoffer Gunnar Steinar Morten Endre
@@ -3017,6 +3017,39 @@ TAJ = {
 		Abdulayev Abdullaev Abdulloev Abdulov Abdurakhmanov Abdurashidov Akbarov Akhmadov Aliev Alimov Amirov Azizov Babaev Boqiev Burkhanov Choriev Dzamshedov Ergashev Hamidov Haydarov Ibragimov Idrisov Isaev Islamov Ismailov
 		Isoev Jalilov Juraev Kadyrov Karimov Kasymov Khasanov Kurbanov Kurbonov Majidov Mamurov Mirzoev Murodov Musaev Nabiyev Niyazov Niyozov Nuraliev Qurbonov Rakhimov Ramazonov Rasulov Ravshanov Sadykov Saidov Salimov Sharifov
 		Sharipov Sheraliev Sultanov Sultonov Umarov Usmanov Yuldashev Yuldosvhev Yunusov Yusufi Yusufov Yusupov
+	}
+}
+
+# Tamil Eelam (LTTE)
+TML = {
+	male = {
+		names = {
+			Aadhavan Aathithan Abinesh Ajanthan Akilan Amalan Anandan Arul Arulanantham Arulnithi Arvindan Balachandran Balakumar
+			Chandran Dayan Devan Eelaventhan Gajan Ganeshan Gokulan Gowrishankar Inban Jeyakumar Jeyanthan Kabilan Kanagan
+			Kanthasamy Karthigesu Ketheeswaran Kirubakaran Kumaran Logendran Madhan Mahendran Mithran Mohanraj Murugan
+			Navaneethan Nesan Niranjan Parameswaran Piratheepan Prabhakaran Pradeepan Ragavan Rajan Rajendran Ramesh
+			Sathyan Selvakumar Senthuran Shankar Sivakumar Sivananthan Suthan Tamilchelvan Tharmalingam Thileepan Thiruchelvam Uthayan Vasanthan Vetrivel Vigneshwaran Yogarajah
+		}
+	}
+	female = {
+		names = {
+			Abirami Ahalya Amutha Ananthi Anusiya Arulmozhi Banu Bhavani Chandra Devi Eelaveni Elakiya Gauri
+			Gayathri Indrani Janani Jeyarani Kalaivani Kanmani Karthika Kokila Kumuthini Lavanya Malarvizhi
+			Mathangi Menaka Nandhini Nirmala Pavithra Poongodi Revathi Rukmani Sangeetha Saranya Selvi
+			Sivakami Suganya Tamilini Tharshini Thenmozhi Usha Vaanathi Vathsala Vidhya Vimali Yalini Yasodha
+		}
+	}
+	surnames = {
+			Arulanantham Balachandran Balakumar Canagaratnam Chandrakanthan Ganesan Gunaratnam
+			Jeyakumar Jeyaratnam Kanagaratnam Kanthasamy Karunakaran Mahendran Nadarajah
+			Navaratnam Parameswaran Pathmanathan Rajaratnam Rajendram Ramanathan Ratnarajah
+			Sabapathy Sathyamoorthy Selvarajah Selvanayagam Shanmugam Sivakumar Sivananthan
+			Somasundaram Tharmalingam Thiruchelvam Thurairajah Uthayakumar Varatharajah
+			Velayutham Visvanathan Yogaratnam
+	}
+	callsigns = {
+			Karuna Soosai Tamilchelvan Balraj Theepan Jeyam Bhanu Charles Antony
+			Ramesh Durga Kittu Pulidevan Vidusha Malathi
 	}
 }
 

@@ -667,7 +667,7 @@ ALG_reconciliation_path_category = {
 			add_opinion_modifier = { target = GER modifier = democratic_reforms }
 			add_opinion_modifier = { target = ENG modifier = democratic_reforms }
 			add_opinion_modifier = { target = SWI modifier = democratic_reforms }
-			add_opinion_modifier = { target = NOR modifier = democratic_reforms }
+			add_opinion_modifier = { target = NRY modifier = democratic_reforms }
 			add_opinion_modifier = { target = HOL modifier = democratic_reforms }
 		}
 
@@ -1546,11 +1546,9 @@ ALG_political_struggle = {
 					value = 0.08
 				}
 			}
-			random_list = {
-				50 = {
-					country_event = { id = alg_politics.10 days = 7 }
-				}
-				50 = { }
+			random = {
+				chance = 50
+				country_event = { id = alg_politics.10 days = 7 }
 			}
 		}
 

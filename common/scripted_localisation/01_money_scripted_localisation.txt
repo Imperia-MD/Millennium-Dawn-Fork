@@ -239,14 +239,11 @@ defined_text = {
 
 	text = {
 		trigger = {
-			has_country_flag = int_reinvestment_flag
+			NOT = { check_variable = { int_reinvest_mode = 0 } }
 		}
 		localization_key = GOVERNMENT_INVESTMENT_RATE_2
 	}
 	text = {
-		trigger = {
-			NOT = { has_country_flag = int_reinvestment_flag }
-		}
 		localization_key = GOVERNMENT_INVESTMENT_RATE_1
 	}
 }
@@ -255,9 +252,15 @@ defined_text = {
 	name = int_reinvestment_toggled
 	text = {
 		trigger = {
-			has_country_flag = int_reinvestment_flag
+			check_variable = { int_reinvest_mode = 1 }
 		}
 		localization_key = GOVERNMENT_INVESTMENT_RATE_YES
+	}
+	text = {
+		trigger = {
+			check_variable = { int_reinvest_mode = 2 }
+		}
+		localization_key = GOVERNMENT_INVESTMENT_RATE_SPLIT
 	}
 	text = {
 		localization_key = GOVERNMENT_INVESTMENT_RATE_NO
@@ -1027,16 +1030,6 @@ defined_text = {
 	}
 }
 
-defined_text = {
-	name = propaganda_campaign_decision_costs
-	text = {
-		trigger = {
-			has_decision = propaganda_campaign_decision
-		}
-		localization_key = "propaganda_campaign_decision_additional_expense"
-	}
-}
-
 # Botswana
 ## Additional Income
 defined_text = {
@@ -1403,7 +1396,7 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = SWE
-			country_exists = NOR
+			country_exists = NRY
 		}
 		localization_key = SWE_border_trade_income_tt
 	}

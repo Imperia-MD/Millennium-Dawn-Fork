@@ -596,8 +596,6 @@
  NKO_Recognition_of_Economic_Backwardness_desc: "North Korea's economy has fallen behind the times after \"Arduous March\". We need radical reforms"
  NKO_2009_Revaluation: "Revaluation"
  NKO_2009_Revaluation_desc: "During the Arduous March, our national economy, and in particular our monetary system, was hit hard. The people did not trust our currency and everyday life was even filled with bartering. To change this situation, we need a bold monetary reform and revaluation."
- NKO_Revaluation_Success: "Revaluation Success..."
- NKO_Revaluation_Success_desc: ""
  NKO_Revaluation_Failure: "Revaluation Failure..."
  NKO_Revaluation_Failure_desc: ""
  NKO_Air_Koryo: "Air Koryo"
@@ -1725,10 +1723,6 @@
  NKO_spa.5.t: "The Cabinet Acts in Your Absence"
  NKO_spa.5.d: "The session was about to lapse without action. The Cabinet, citing the Party's productive duty, has passed the cheapest affordable resolutions on your behalf."
  NKO_spa.5.a: "Acknowledge the Cabinet's initiative."
-
- NKO_spa.6.t: "Assembly Suspended"
- NKO_spa.6.d: "Civil disorder has rendered the Assembly inoperable. All standing mandates are voided until order is restored."
- NKO_spa.6.a: "Acknowledge."
 
  NKO_spa.10.t: "Assembly Cycle"
  NKO_spa.10.d: "Internal cycle event."
